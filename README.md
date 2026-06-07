@@ -117,4 +117,4 @@ With 38.73% of churned customers using Online Banking, there may be UX friction 
 This project was completed as part of a structured virtual training program with a UK-based bank.
 The analysis was delivered as a formal Phase 1 report covering EDA, preprocessing, and business recommendations.
 
-📧 [Your Email] | 💼 [Your LinkedIn URL]
+📧 [mohamedbadawisayed@gmail.com] | 💼 [www.linkedin.com/in/mohamed-badawi28]
