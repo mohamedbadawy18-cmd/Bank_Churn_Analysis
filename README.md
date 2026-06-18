@@ -1,9 +1,9 @@
-# 🏦 Customer Churn Analysis — Power BI Dashboard
+#  Customer Churn Analysis — Power BI Dashboard
 > A multi-table Star Schema analysis identifying churn drivers across 1,000 bank customers
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 | | |
 |---|---|
@@ -15,13 +15,13 @@
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 A bank with 1,000 customers needed to understand the drivers behind a 20.4% churn rate across multiple dimensions — demographics, service interactions, digital channel usage, and spending behavior — to design targeted retention strategies.
 
 ---
 
-## 🗂 Data Model — Star Schema
+##  Data Model — Star Schema
 
 This project was rebuilt from a flat Excel case study into a proper relational model:
 
@@ -45,7 +45,7 @@ All dimension tables relate to `Customer_Demographics` via `Customer_ID`.
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
 | # | Finding | Data |
 |---|---|---|
@@ -60,7 +60,7 @@ All dimension tables relate to `Customer_Demographics` via `Customer_ID`.
 
 ---
 
-## 📈 Dashboard Pages
+##  Dashboard Pages
 
 ### Page 1 — Executive Overview
 KPI cards (Total Customers, Churned Customers, Churn Rate, Avg Spend Churned) + Donut chart (Churned vs Active) + Churn Rate by Marital Status + Churn Rate by Income Level + Churn Rate by Gender
@@ -78,20 +78,20 @@ Avg Spend comparison (Stayed vs Churned) + Total Revenue Lost + 3 targeted reten
 
 ---
 
-## ✅ Retention Recommendations
+##  Retention Recommendations
 
-### 1. 📱 Fix the Mobile App Experience
+### 1. Fix the Mobile App Experience
 Mobile App users churn at **23.1%** — the highest across all digital channels. A UX audit is recommended to identify and resolve friction points in the mobile journey.
 
-### 2. 💍 Target Married Customers with Loyalty Offers
+### 2. Target Married Customers with Loyalty Offers
 The married segment shows **23.0%** churn — the highest by marital status. A loyalty programme tailored to this group's financial needs (e.g., joint accounts, family banking perks) could improve retention.
 
-### 3. 💬 Resolve Feedback Complaints Faster
+### 3. Resolve Feedback Complaints Faster
 The "Feedback" interaction type carries the highest unresolved case volume of all interaction types. A dedicated resolution team with clear SLAs is recommended.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── README.md                          ← You are here
@@ -102,15 +102,15 @@ The "Feedback" interaction type carries the highest unresolved case volume of al
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - **Power BI** — Data modeling (Star Schema), DAX measures, 4-page interactive dashboard
 - **DAX** — Custom measures for churn rate, segment-level filtering, and revenue impact
 
 ---
 
-## 👤 About
+##  About
 
 This project is a rebuild of an earlier flat-file churn analysis, redesigned around a proper **Star Schema** data model with a Transaction fact table and four supporting dimension tables — reflecting how churn analysis is structured in production BI environments.
 
-📧 [Your Email] | 💼 [Your LinkedIn URL] | 🐙 [Your GitHub URL]
+📧 [mohamedbadawisayed@gmail.com] | 💼 [www.linkedin.com/in/mohamed-badawi28] | 🐙 [https://github.com/mohamedbadawy18-cmd]
